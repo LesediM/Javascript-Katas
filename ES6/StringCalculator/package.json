@@ -1,0 +1,17 @@
+{
+    "name": "stringcalculator",
+    "version": "1.0.0",
+    "description": "ecmascript 6 javascript",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "Lesedi Motsemme",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "chai": "^4.1.2",
+        "mocha": "^3.5.3"
+    }
+}
