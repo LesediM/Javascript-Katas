@@ -1,6 +1,6 @@
 var assert = require("chai").assert;
-var Calculator = require("./../calculator");
-var calculator = new Calculator.default();
+var Calculator = require("./../calculator").Calculator;
+var calculator = new Calculator();
     describe("add", () => {
         it("should be defined", () => {
             assert.isDefined(calculator.add);
